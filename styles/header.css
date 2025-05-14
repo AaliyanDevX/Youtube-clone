@@ -1,0 +1,142 @@
+.header {
+  height: 56px;
+  display: grid;
+  grid-template-columns: minmax(100px, 300px) 1fr minmax(100px, 300px) ;
+  position: fixed;
+  background-color: white;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.first-portion {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding-left: 12px;
+}
+
+.icon-style {
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+}
+
+.icon-style-2 {
+  width: 123px;
+  height: 56px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.second-portion {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  margin-left: 60px;
+  margin-right: 40px;
+}
+
+.search-button {
+  height: 40px;
+  padding-left: 15px;
+  font-size: 15px;
+  max-width: 500px;
+  width: 100%;
+  border-radius: 20px 0 0 20px;
+  background-color: hsla(0, 12%, 95%, 0.88);
+  border: none;
+}
+
+.icon-style-3 {
+  height: 40px;
+  width: 66px;
+  border: 1px solid hsl(0, 82%, 57%);
+  background-color: hsla(0, 47%, 97%, 0.88);
+  margin-left: -1px;
+  border-radius:0 20px 20px 0;
+  padding: 4px;
+}
+
+.icon-style-4 {
+  background-color: hsla(0, 12%, 95%, 0.88);
+  margin-left: 0.8rem;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  padding: 4px;
+  border: none;
+}
+
+.plus-sign {
+  font-size: 30px;
+  font-weight: 100px;
+  margin-right: 5px;
+}
+.button-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 110px;
+  font-size: 1rem;
+  border: none;
+  background-color: hsla(0, 12%, 95%, 0.88);
+  border-radius: 40px;
+  
+}
+
+.profile-img-user,
+.notifications-icon {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-left: 8px;
+  padding: 4px;
+  border: none;
+}
+
+.profile-img-user{
+  width: 43px;
+  height:43px;
+  border-radius: 50%;
+}
+
+.notifications-icon {
+  height: 36px;
+  width: 36px;
+  padding: 4px;
+}
+
+.third-portion {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.notifications {
+  position: absolute;
+  font-size: 0.85rem;
+  background-color: red;
+  color: white;
+  height: 0.90rem;
+  width: 0.90rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  padding: 2px 3px;
+  top: 1.13rem;
+  right: 3.5rem;
+  border: white;
+
+}
